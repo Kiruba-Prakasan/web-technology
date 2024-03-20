@@ -1,0 +1,30 @@
+.sidebar {
+    position: fixed;
+    width: 250px;
+}
+
+.content {
+    margin-left: 250px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#33baab;
+    color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.menu li:hover {
+    background-color: #009688;
+}
+
+.menu li a {
+    text-decoration: none; /* Remove underline from anchor tags */
+}
+
